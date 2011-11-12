@@ -1,0 +1,12 @@
+name: yesod-test
+version: 0.0.0
+synopsis: very basic yesod performance test
+license: BSD3
+build-type: Simple
+
+cabal-version: >= 1.6
+
+executable yesod-test
+  main-is: yesod-test.hs
+  build-depends: base > 4, yesod-core, warp, bytestring
+  ghc-options: -O2 -threaded
