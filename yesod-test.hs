@@ -19,7 +19,7 @@ instance Yesod Test where
     approot _ = ""
     encryptKey _ = return Nothing
 
-getTestR :: Handler RepPlain
+getTestR :: GHandler Test Test RepPlain
 getTestR = return . RepPlain $ toContent ("Test " :: ByteString )
 
 main = toWaiAppPlain Test >>= run 3000

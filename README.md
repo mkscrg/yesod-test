@@ -16,3 +16,5 @@ Results
 -------
 
 yesod-core-0.9.3.3, warp-0.4.5, GHC 7.2.1, (MacBookPro8,2, 2.3GHz i7, 8GB RAM) -- 1309 req/s
+yesod-core-0.9.1, warp-0.4.5, GHC 7.2.1, (MacBookPro8,2, 2.3GHz i7, 8GB RAM) -- 1308 req/s
+yesod-core-0.8.3.1, warp-0.4.5, GHC 7.2.1, (MacBookPro8,2, 2.3GHz i7, 8GB RAM) --16895 req/s
